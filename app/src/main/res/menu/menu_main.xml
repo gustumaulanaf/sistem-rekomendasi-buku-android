@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.gustu.rekomendasi.buku.ui.activity.MainActivity">
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/home"
+        android:title="@string/home"
+        app:showAsAction="always" />
+     <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Cari"
+        app:showAsAction="always" />
+  <item
+        android:id="@+id/menu_profile"
+        android:icon="@drawable/ic_baseline_face_24"
+        android:title="Profile"
+        app:showAsAction="always" />
+
+</menu>
